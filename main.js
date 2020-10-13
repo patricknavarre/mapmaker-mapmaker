@@ -2,7 +2,50 @@
  * YOUR CODE HERE *
 ******************/
 
+function doubleAll(num) {
+  const newDouble = [];
+  for (let i = 0; i < num.length; i++) {
+    newDouble.push(num[i] * 2)
+  }
+  return newDouble
+}
 
+function yelledGreetings(str) {
+  const newGreeting = [];
+  for (let i = 0; i < str.length; i++) {
+    newGreeting.push(str[i] + '!')
+  }
+  return newGreeting
+}
+
+function absoluteValues(num) {
+  const newNumber = []; 
+  for (let i = 0; i < num.length; i++) { 
+    bestNumber = Math.abs(num[i])
+    newNumber.push(bestNumber);
+  }
+  return (newNumber)
+}
+
+
+function upperCaseFirstLetters(initial) {
+  const newArr = [];
+  for (let i = 0; i < initial.length; i++) {
+    newArr.push(initial[i][0].toUpperCase() 
+    + initial[i].slice(1).toLowerCase())
+  }
+  return newArr
+}
+
+
+
+function changeToInitials(str) {
+  const newName = [];
+  for (let i = 0; i < str.length; i++){
+    newName.push(str[i] )
+  }
+
+}
 
 
 
